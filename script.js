@@ -809,6 +809,13 @@ document.addEventListener("DOMContentLoaded", () => {
   initConciergeEvents();
   initReveal();
   initYear();
+  window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+  if (preloader) {
+    preloader.classList.add("hidden");
+  }
+});
+  
 });
 /* ==========================================================================
    The Connoisseur's Choice — Gamified Discount Reveal

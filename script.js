@@ -807,7 +807,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initNavEvents();
   initConcierge();
   initConciergeEvents();
-  initConnoisseurChoice();
   initReveal();
   initYear();
 });
